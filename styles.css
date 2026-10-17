@@ -262,3 +262,21 @@ footer .marks a:hover { color: var(--ink); }
   .reveal, .hero .enter { opacity: 1; transform: none; }
   .principle::before { transform: none; }
 }
+
+/* Privacy policy page */
+.policy { padding: 88px 0 24px; }
+.policy .wrap { max-width: 720px; }
+.policy h1 { margin: 10px 0 8px; font-size: clamp(36px, 5vw, 52px); }
+.policy .updated { color: var(--muted); font-size: 15px; margin-bottom: 32px; }
+.policy h3 { margin: 32px 0 8px; font-size: 20px; }
+.policy p { font-size: 17px; line-height: 1.6; color: var(--ink); }
+.policy a { color: inherit; }
+@media (max-width: 720px) { .policy { padding: 48px 0 16px; } }
+
+/* Footer: copyright left, legal link right */
+footer .foot-left { display: flex; align-items: center; gap: 28px; flex-wrap: wrap; }
+footer .foot-left .marks { text-align: left; }
+footer .foot-link { color: var(--muted); text-decoration: none; font-weight: 600; }
+footer .foot-link:hover { color: var(--ink); }
+@media (max-width: 720px) { footer .foot-left { gap: 16px; } }
+
